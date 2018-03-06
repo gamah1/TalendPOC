@@ -135,9 +135,10 @@
       <column comment="" key="true" length="100" name="containerName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="MAIN" label="row1" lineStyle="0" metaname="MAIN" offsetLabelX="0" offsetLabelY="0" source="tAzureStorageList_1" target="tJava_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tAzureStorageList_1" offsetLabelX="0" offsetLabelY="0" source="tAzureStorageList_1" target="tJava_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate1" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAzureStorageGet_1" show="false"/>
