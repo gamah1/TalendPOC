@@ -180,7 +180,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="Date_time" expression="row1.date_t " type="id_String" nullable="true"/>
-        <mapperTableEntries name="date_new" expression="row1.date_t.substring(10) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="date_new" expression="row1.date_t.substring(-10) " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="date_t" type="id_String" nullable="true"/>
