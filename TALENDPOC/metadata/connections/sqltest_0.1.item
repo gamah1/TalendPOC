@@ -32,6 +32,11 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSzxC6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_MHSzxS6rEei_jsPfuETVNg" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
         </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_-3fqFTD5EeiGXYihz_rYIQ" name="Date_time" label="Date_time" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_-3fqFjD5EeiGXYihz_rYIQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_-3fqFzD5EeiGXYihz_rYIQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_-3fqGDD5EeiGXYihz_rYIQ" name="DATE" javaDataType="91" nullable="columnNullable"/>
+        </feature>
         <feature xsi:type="relational:TdColumn" xmi:id="_MHSzxi6rEei_jsPfuETVNg" name="post_visid_high" label="post_visid_high" length="100" sourceType="NVARCHAR" talendType="id_String">
           <taggedValue xmi:id="_MHSzxy6rEei_jsPfuETVNg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSzyC6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
@@ -42,15 +47,15 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSzzC6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_MHSzzS6rEei_jsPfuETVNg" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_MHSzzi6rEei_jsPfuETVNg" name="exlcude_hit" label="exlcude_hit" length="10" sourceType="NUMERIC" talendType="id_BigDecimal">
+        <feature xsi:type="relational:TdColumn" xmi:id="_MHSzzi6rEei_jsPfuETVNg" name="exlcude_hit" label="exlcude_hit" length="10" sourceType="INT" talendType="id_Integer">
           <taggedValue xmi:id="_MHSzzy6rEei_jsPfuETVNg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSz0C6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="_MHSz0S6rEei_jsPfuETVNg" name="NUMERIC" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+          <sqlDataType xmi:id="_MHSz0S6rEei_jsPfuETVNg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz0i6rEei_jsPfuETVNg" name="hit_source" label="hit_source" length="10" sourceType="NUMERIC" talendType="id_BigDecimal">
+        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz0i6rEei_jsPfuETVNg" name="hit_source" label="hit_source" length="10" sourceType="INT" talendType="id_Integer">
           <taggedValue xmi:id="_MHSz0y6rEei_jsPfuETVNg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSz1C6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="_MHSz1S6rEei_jsPfuETVNg" name="NUMERIC" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+          <sqlDataType xmi:id="_MHSz1S6rEei_jsPfuETVNg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
         </feature>
         <feature xsi:type="relational:TdColumn" xmi:id="_MHSz1i6rEei_jsPfuETVNg" name="visit_num" label="visit_num" length="100" sourceType="NVARCHAR" talendType="id_String">
           <taggedValue xmi:id="_MHSz1y6rEei_jsPfuETVNg" tag="Comment" value=""/>
@@ -62,30 +67,30 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSz3C6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_MHSz3S6rEei_jsPfuETVNg" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz3i6rEei_jsPfuETVNg" name="Visits" label="Visits" length="10" sourceType="NUMERIC" talendType="id_BigDecimal">
+        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz3i6rEei_jsPfuETVNg" name="Visits" label="Visits" length="10" sourceType="INT" talendType="id_Integer">
           <taggedValue xmi:id="_MHSz3y6rEei_jsPfuETVNg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSz4C6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="_MHSz4S6rEei_jsPfuETVNg" name="NUMERIC" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+          <sqlDataType xmi:id="_MHSz4S6rEei_jsPfuETVNg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz4i6rEei_jsPfuETVNg" name="Visitors" label="Visitors" length="10" sourceType="NUMERIC" talendType="id_BigDecimal">
+        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz4i6rEei_jsPfuETVNg" name="Visitors" label="Visitors" length="10" sourceType="INT" talendType="id_Integer">
           <taggedValue xmi:id="_MHSz4y6rEei_jsPfuETVNg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSz5C6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="_MHSz5S6rEei_jsPfuETVNg" name="NUMERIC" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+          <sqlDataType xmi:id="_MHSz5S6rEei_jsPfuETVNg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz5i6rEei_jsPfuETVNg" name="Cart_Addition_Visits" label="Cart_Addition_Visits" length="10" sourceType="NUMERIC" talendType="id_BigDecimal">
+        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz5i6rEei_jsPfuETVNg" name="Cart_Addition_Visits" label="Cart_Addition_Visits" length="10" sourceType="INT" talendType="id_Integer">
           <taggedValue xmi:id="_MHSz5y6rEei_jsPfuETVNg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSz6C6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="_MHSz6S6rEei_jsPfuETVNg" name="NUMERIC" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+          <sqlDataType xmi:id="_MHSz6S6rEei_jsPfuETVNg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz6i6rEei_jsPfuETVNg" name="Add_to_Shopping_List_Visits" label="Add_to_Shopping_List_Visits" length="10" sourceType="NUMERIC" talendType="id_BigDecimal">
+        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz6i6rEei_jsPfuETVNg" name="Add_to_Shopping_List_Visits" label="Add_to_Shopping_List_Visits" length="10" sourceType="INT" talendType="id_Integer">
           <taggedValue xmi:id="_MHSz6y6rEei_jsPfuETVNg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSz7C6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="_MHSz7S6rEei_jsPfuETVNg" name="NUMERIC" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+          <sqlDataType xmi:id="_MHSz7S6rEei_jsPfuETVNg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz7i6rEei_jsPfuETVNg" name="Add_to_Shopping_List" label="Add_to_Shopping_List" length="10" sourceType="NUMERIC" talendType="id_BigDecimal">
+        <feature xsi:type="relational:TdColumn" xmi:id="_MHSz7i6rEei_jsPfuETVNg" name="Add_to_Shopping_List" label="Add_to_Shopping_List" length="10" sourceType="INT" talendType="id_Integer">
           <taggedValue xmi:id="_MHSz7y6rEei_jsPfuETVNg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_MHSz8C6rEei_jsPfuETVNg" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="_MHSz8S6rEei_jsPfuETVNg" name="NUMERIC" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+          <sqlDataType xmi:id="_MHSz8S6rEei_jsPfuETVNg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
         </feature>
       </ownedElement>
     </ownedElement>
